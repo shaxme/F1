@@ -47,11 +47,3 @@ elFormBtn[0].addEventListener("click", (event) => {
   elFormInput[0].value = "";
   }
 );
-
-
-elFormBtn[1].addEventListener("click", (event) => {
-  event.preventDefault()
-  elTextAnswer[0].textContent = "";
-  elTextAnswer[1].textContent = "";
-  }
-);
