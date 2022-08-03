@@ -31,7 +31,7 @@ elFormBtn[0].addEventListener("click", (event) => {
   else if(input == 10) {
     elTextAnswer[1].textContent = "Please try again in six years";
   }
-  else if(input > 0 && input <= 9) {
+  else if(input >= 0 && input <= 9) {
     elTextAnswer[1].textContent = "Sorry, you're too young to race";
   }
   else if(isNaN(input)) {
